@@ -52,12 +52,12 @@ Les transactions suspectes sont détectées selon la règle suivante :
 ## Configuration de Grafana et InfluxDB
 ### Connexion de Grafana à InfluxDB
 1. Accédez à l’interface Grafana via `http://localhost:3000`.
-![Grafana](images/img_8.png.png)
+![Grafana](images/img_8.png)
 2. Ajoutez une nouvelle source de données :
    - Type : InfluxDB
    - URL : `http://influxdb:8086`
    - Base de données : `fraud_transaction`
-![Grafana](images/img_9.png.png)
+![Grafana](images/img_9.png)
 3. Enregistrez la configuration.
 
 ### Création des Tableaux de Bord

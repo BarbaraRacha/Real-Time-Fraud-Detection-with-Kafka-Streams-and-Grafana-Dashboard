@@ -35,8 +35,8 @@ Les transactions suspectes sont détectées selon la règle suivante :
 ## Installation
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-repo/kafka-streams-fraud-detection.git
-   cd kafka-streams-fraud-detection
+   git clone https://github.com/BarbaraRacha/Real-Time-Fraud-Detection-with-Kafka-Streams-and-Grafana-Dashboard.git
+   cd Real-Time-Fraud-Detection-with-Kafka-Streams-and-Grafana-Dashboard
    ```
 
 2. Construisez l'application Java :

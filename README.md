@@ -14,7 +14,7 @@ Ce projet implémente une application Kafka Streams permettant de détecter les 
 - [Captures d’Écran](#captures-d’écran)
 
 ## Architecture Globale
-![Architecture Kafka Streams](images/kafka.png.png)
+![Architecture Kafka Streams](images/kafka.png)
 
 L'application se compose des éléments suivants :
 - **Kafka Streams** : Pour traiter les transactions en temps réel.
@@ -97,19 +97,14 @@ from(bucket: "fraud_transaction")
 ## Captures d’Écran
 ### Classes et Résultats des Sorties
 #### TransactionProducer
-```
 ![TransactionProducer](images/img_11.png)
-```
 
 #### TransactionProcessor
-```
 ![TransactionProcessor](images/img_12.png)
 
-```
 #### FraudAlertConsumer
-```
 ![FraudAlertConsumer](images/img_13.png)
-```
+
 
 ### Dashboards
 #### Dashboard InfluxDB
